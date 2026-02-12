@@ -1,0 +1,110 @@
+# =========================
+# Basis Einstellungen
+# =========================
+title: "✨ Meine Fancy Website ✨"
+email: "deinemail@example.com"
+description: >
+  Eine kreative Website mit vielen Schnörkeln, Animationen und Design-Spielereien.
+baseurl: ""
+url: "https://deinusername.github.io"
+
+lang: de
+timezone: Europe/Berlin
+
+# =========================
+# Theme & Design
+# =========================
+theme: minima
+
+# Custom Design Variablen (für CSS Nutzung)
+design:
+  primary_color: "#ff6ec7"
+  secondary_color: "#6effe8"
+  accent_color: "#ffd166"
+  background_gradient: "linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4)"
+  border_radius: "16px"
+  shadow_strength: "0 10px 30px rgba(0,0,0,0.2)"
+
+animations:
+  enable_scroll_animations: true
+  enable_hover_effects: true
+  enable_parallax: true
+  cursor_glow: true
+
+# =========================
+# Schriftarten
+# =========================
+fonts:
+  heading: "Playfair Display"
+  body: "Poppins"
+  fancy: "Great Vibes"
+
+# =========================
+# Social Media
+# =========================
+social:
+  github: deinusername
+  instagram: deininsta
+  twitter: deintwitter
+  youtube: deinyoutube
+
+# =========================
+# Navigation
+# =========================
+nav:
+  - name: "Home"
+    link: "/"
+  - name: "Über mich"
+    link: "/about"
+  - name: "Portfolio"
+    link: "/portfolio"
+  - name: "Kontakt"
+    link: "/contact"
+
+# =========================
+# Plugins
+# =========================
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-archives
+  - jekyll-paginate
+
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+# =========================
+# SEO
+# =========================
+seo:
+  type: Website
+  name: "Meine Fancy Website"
+  links:
+    - https://github.com/deinusername
+
+# =========================
+# Markdown & Syntax Highlighting
+# =========================
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# =========================
+# Footer Extras
+# =========================
+footer:
+  show_wave_animation: true
+  show_particles: true
+  show_social_icons: true
+
+# =========================
+# Easter Eggs / Spielereien
+# =========================
+fun:
+  confetti_on_click: true
+  hidden_dark_mode_toggle: true
+  random_quote_on_reload: true
