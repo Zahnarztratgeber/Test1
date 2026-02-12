@@ -3,65 +3,9 @@
 
 @import "{{ site.theme }}";
 
-/* ============================= */
-/*   BLAU & GOLD DESIGN         */
-/* ============================= */
-
-/* Header mit blau-goldenem Verlauf */
-.page-header {
-  background: linear-gradient(135deg, #0a1f44 0%, #123a8c 50%, #d4af37 100%);
-  color: #ffffff;
-}
-
-/* Titel */
-.project-name {
-  color: #ffffff;
-}
-
-/* Untertitel */
-.project-tagline {
-  color: #f5d76e;
-}
-
-/* Hauptbereich */
-body {
-  background-color: #f8f9fb;
-}
-
-/* Links */
-a {
-  color: #123a8c;
-  font-weight: 600;
-}
-
-a:hover {
-  color: #d4af37;
-}
-
-/* Buttons */
-.btn {
-  background-color: #d4af37;
-  border-color: #d4af37;
-  color: #0a1f44;
-  font-weight: bold;
-}
-
-.btn:hover {
-  background-color: #b8962e;
-  border-color: #b8962e;
-  color: #ffffff;
-}
-
-/* Überschriften im Content */
-.main-content h1,
-.main-content h2,
-.main-content h3 {
-  color: #0a1f44;
-}
-
-/* Trennlinien */
-hr {
-  border: 0;
-  height: 2px;
-  background: linear-gradient(to right, #123a8c, #d4af37);
-}
+body { background-color: #f8f9fb; }
+.page-header { background: linear-gradient(135deg, #0a1f44, #d4af37); }
+.project-name { color: #ffffff; }
+.project-tagline { color: #f5d76e; }
+a { color: #123a8c; }
+a:hover { color: #d4af37; }
